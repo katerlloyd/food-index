@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Section from "../components/Section";
 
 const Width = styled.div`
   margin: 0 20%;
@@ -8,76 +8,6 @@ const Width = styled.div`
 
 const H1 = styled.h1`
   color: black;
-`;
-
-const Section = styled.div`
-  /* border: 2px dotted rgba(204, 133, 0, 1); */
-  border-radius: 1rem;
-  background-color: rgba(204, 133, 0, 0.1);
-  padding: 1rem;
-  margin: 1rem 0;
-  overflow-x: auto;
-`;
-
-const H2 = styled.h2`
-  color: rgba(204, 133, 0, 1);
-  margin: 0;
-  padding-bottom: 0.5rem;
-`;
-
-const Table = styled.table`
-  width: 100%;
-  border-collapse: collapse;
-  background-color: white;
-`;
-
-const TitleRow = styled.tr`
-  color: rgba(204, 133, 0, 1);
-  background-color: rgba(204, 133, 0, 0.25);
-  border-bottom: 1px solid lightgrey;
-`;
-
-const Heading = styled.th`
-  border-collapse: collapse;
-  padding: 0.25rem 1rem;
-`;
-
-const Row = styled.tr`
-  border-bottom: 1px solid lightgrey;
-  /* :hover {
-    background-color: rgba(204, 133, 0, 0.6);
-  } */
-`;
-
-const CellNotes = styled.td`
-  border-collapse: collapse;
-  padding: 0.25rem 1rem;
-  /* display: none; */
-`;
-
-const Cell = styled.td`
-  text-align: center;
-  border-collapse: collapse;
-  padding: 0.25rem 1rem;
-`;
-
-const Symbol = styled.td`
-  text-align: center;
-  border-collapse: collapse;
-  padding: 0.25rem 1rem;
-  color: red;
-`;
-
-const Arrow = styled.td`
-  text-align: center;
-  border-left: 1px solid lightgrey;
-  border-collapse: collapse;
-  padding: 0.25rem 1rem;
-  color: grey;
-
-  :hover {
-    cursor: pointer;
-  }
 `;
 
 const Box = styled.div`
@@ -92,18 +22,21 @@ const Select = styled.select`
   cursor: pointer;
 `;
 
-// COMPONENTS TO BUILD
-// - Section (heading background color, heading color, section background)
-// - Row (background color, expand arrow with notes underneath)
-// - Cell (background color)
-
 const Home = () => {
   const [sortType, setSortType] = useState("");
-  const [expanded, setExpanded] = useState(false);
 
-  const search = (word) => {
-    //
-  };
+  const search = (word) => {};
+
+  const sectionData = [
+    {
+      title: "Rice",
+      color: "204, 133, 0",
+      items: [
+        { name: "Brown rice", gi: 50, status: "Anti-inflammatory", notes: "" },
+        { name: "White rice", gi: 72, status: "Inflammatory", notes: "" },
+      ],
+    },
+  ];
 
   return (
     <Width>
@@ -167,45 +100,9 @@ const Home = () => {
         </div>
       </Box>
 
-      <Section>
-        <H2>Rice</H2>
-        <Table>
-          <thead>
-            <TitleRow>
-              <Heading></Heading>
-              <Heading>Glycemic Index</Heading>
-              <Heading>Inflammatory Status</Heading>
-              <Heading>&#9888;</Heading>
-              <Heading></Heading>
-            </TitleRow>
-          </thead>
-          <tbody>
-            <Row>
-              <Heading>White rice</Heading>
-              <Cell>72</Cell>
-              <Cell>Inflammatory</Cell>
-              <Symbol>&#9888;</Symbol>
-              <Arrow onClick={() => setExpanded(!expanded)}>
-                {expanded ? <span>&#x25B2;</span> : <span>&#x25BC;</span>}
-              </Arrow>
-            </Row>
-            {expanded && (
-              <Row>
-                <CellNotes colspan="5">Notes</CellNotes>
-              </Row>
-            )}
-            <Row>
-              <Heading>Brown rice</Heading>
-              <Cell>50</Cell>
-              <Cell>-</Cell>
-              <Symbol>&#10003;</Symbol>
-              <Arrow onClick={() => setExpanded(!expanded)}>
-                {expanded ? <span>&#x25B2;</span> : <span>&#x25BC;</span>}
-              </Arrow>
-            </Row>
-          </tbody>
-        </Table>
-      </Section>
+      {sectionData.map((section, index) => {
+        return <Section key={index} data={section} />;
+      })}
     </Width>
   );
 };
