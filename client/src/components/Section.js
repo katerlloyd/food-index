@@ -48,7 +48,7 @@ const Section = ({ data }) => {
           </TitleRow>
         </thead>
         <tbody>
-          {data.items.map((item, index) => {
+          {data?.items?.map((item, index) => {
             return <Row key={index} data={item} />;
           })}
         </tbody>

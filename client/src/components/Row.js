@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const Heading = styled.th`
+  border-right: 1px solid lightgrey;
   border-collapse: collapse;
   padding: 0.25rem 1rem;
 `;
@@ -30,6 +31,10 @@ const Symbol = styled.td`
   padding: 0.25rem 1rem;
 `;
 
+const Icon = styled.span`
+  font-weight: bold;
+`;
+
 const Arrow = styled.td`
   text-align: center;
   border-left: 1px solid lightgrey;
@@ -44,19 +49,13 @@ const Row = ({ data }) => {
 
   const getSymbol = () => {
     if (data.gi === 0) {
-      return (
-        <span style={{ color: "blue", fontWeight: "bold" }}>&#10003;</span>
-      );
+      return <Icon style={{ color: "blue" }}>&#10003;</Icon>;
     } else if (0 < data.gi && data.gi <= 55) {
-      return (
-        <span style={{ color: "green", fontWeight: "bold" }}>&#10003;</span>
-      );
+      return <Icon style={{ color: "green" }}>&#10003;</Icon>;
     } else if (55 < data.gi && data.gi <= 69) {
-      return (
-        <span style={{ color: "orange", fontWeight: "bold" }}>&#9888;</span>
-      );
+      return <Icon style={{ color: "orange" }}>&#9888;</Icon>;
     } else if (data.gi >= 70) {
-      return <span style={{ color: "red", fontWeight: "bold" }}>&#9888;</span>;
+      return <Icon style={{ color: "red" }}>&#9888;</Icon>;
     }
   };
 

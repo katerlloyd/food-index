@@ -2,12 +2,18 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Section from "../components/Section";
 
+const { data } = require("../catalog.json");
+
 const Width = styled.div`
   margin: 0 20%;
+  padding: 1rem 2rem;
+  background-color: white;
 `;
 
 const H1 = styled.h1`
   color: black;
+  margin: 0;
+  padding: 1rem 0;
 `;
 
 const Box = styled.div`
@@ -27,20 +33,9 @@ const Home = () => {
 
   const search = (word) => {};
 
-  const sectionData = [
-    {
-      title: "Rice",
-      color: "204, 133, 0",
-      items: [
-        { name: "Brown rice", gi: 50, status: "Anti-inflammatory", notes: "" },
-        { name: "White rice", gi: 72, status: "Inflammatory", notes: "" },
-      ],
-    },
-  ];
-
   return (
     <Width>
-      <H1>Food Glycemic Index and Inflammation Catalog</H1>
+      <H1>Glycemic Index and Inflammation Catalog</H1>
       <p>
         <strong>Glycemic Index:</strong> A way of ranking foods on a scale of 0
         to 100 based on how quickly they increase blood glucose levels over a
@@ -59,10 +54,8 @@ const Home = () => {
         </li>
       </ul>
       <p>
-        <strong>Inflammation:</strong> A response that causes swelling, pain,
-        and increased blood flow to the affected tissue, which in this
-        particular case is caused by an incorrect reaction where the body
-        damages itself.
+        <strong>Inflammation:</strong> An innate immune response, which in this
+        particular case causes unwarranted damage to the body.
       </p>
       <ul>
         <li>
@@ -72,7 +65,7 @@ const Home = () => {
           <strong>Non-inflammatory:</strong> Has no effect on inflammation
         </li>
         <li>
-          <strong>Inflammatory:</strong> Causes inflammation
+          <strong>Pro-inflammatory:</strong> Causes inflammation
         </li>
       </ul>
 
@@ -100,7 +93,7 @@ const Home = () => {
         </div>
       </Box>
 
-      {sectionData.map((section, index) => {
+      {data?.map((section, index) => {
         return <Section key={index} data={section} />;
       })}
     </Width>

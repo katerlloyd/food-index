@@ -1,3 +1,12 @@
+html {
+  margin: none;
+  padding: 0;
+}
+
+body {
+    background-color: rgb(170, 206, 206);
+}
+
 .App {
   text-align: center;
 }
