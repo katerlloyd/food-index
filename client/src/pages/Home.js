@@ -29,7 +29,7 @@ const Select = styled.select`
 `;
 
 const Home = () => {
-  const [sortType, setSortType] = useState("");
+  const [sortType, setSortType] = useState("gi-ascending");
 
   const search = (word) => {};
 
@@ -72,20 +72,18 @@ const Home = () => {
       <Box>
         <Select
           aria-label="Select Sort Type"
-          name="sorting"
-          id="sorting"
-          value={sortType}
+          defaultValue={sortType}
           onChange={(e) => setSortType(e.target.value)}
         >
-          <option value="gi-ascending">Glycemic Index (Ascending)</option>
-          <option value="gi-descending">Glycemic Index (Descending)</option>
-          <option value="inflammatory-ascending">
+          <option value="gi-ascending">Glycemic Index - Ascending</option>
+          <option value="gi-descending">Glycemic Index- Descending</option>
+          {/* <option value="inflammatory-ascending">
             Inflammatory (Ascending)
           </option>
           <option value="inflammatory-descending">
             Inflammatory (Descending)
           </option>
-          <option value="alphabetically">Alphabetically</option>
+          <option value="alphabetically">Alphabetically</option> */}
         </Select>
         <div>
           <input type="text" placeholder="Flour" name="search"></input>
@@ -94,7 +92,7 @@ const Home = () => {
       </Box>
 
       {data?.map((section, index) => {
-        return <Section key={index} data={section} />;
+        return <Section key={index} {...{ data: section, sortType }} />;
       })}
     </Width>
   );

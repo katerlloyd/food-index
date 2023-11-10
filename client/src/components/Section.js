@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import Row from "./Row";
 
@@ -33,7 +33,35 @@ const Heading = styled.th`
   padding: 0.25rem 1rem;
 `;
 
-const Section = ({ data }) => {
+const Section = ({ data, sortType }) => {
+  const [sortedData, setSortedData] = useState([]);
+
+  useEffect(() => {
+    if (data.items) {
+      let newData = data.items;
+
+      if (sortType === "gi-ascending") {
+        newData = sortByGIAscending(data.items);
+      } else if (sortType === "gi-descending") {
+        newData = sortByGIDescending(data.items);
+      }
+
+      setSortedData(newData);
+    }
+  }, [data, sortType]);
+
+  const sortByGIAscending = (items) => {
+    return items.sort((a, b) => {
+      return a.gi - b.gi;
+    });
+  };
+
+  const sortByGIDescending = (items) => {
+    return items.sort((a, b) => {
+      return b.gi - a.gi;
+    });
+  };
+
   return (
     <SectionDiv color={data.color}>
       <H2 color={data.color}>{data.title}</H2>
@@ -43,12 +71,12 @@ const Section = ({ data }) => {
             <Heading></Heading>
             <Heading>Glycemic Index</Heading>
             <Heading>Inflammatory Status</Heading>
-            <Heading>&#9888;</Heading>
+            <Heading>&#10003;</Heading>
             <Heading></Heading>
           </TitleRow>
         </thead>
         <tbody>
-          {data?.items?.map((item, index) => {
+          {sortedData?.map((item, index) => {
             return <Row key={index} data={item} />;
           })}
         </tbody>
