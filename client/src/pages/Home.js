@@ -18,9 +18,11 @@ const H1 = styled.h1`
 
 const Box = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0.25rem;
+  gap: 1rem;
 `;
 
 const Select = styled.select`
