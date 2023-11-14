@@ -46,16 +46,12 @@ const Row = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
 
   const getSymbol = () => {
-    if (data.status === "Pro-inflammatory") {
-      return <Icon style={{ color: "red" }}>&#9888;</Icon>;
-    } else if (data.gi === 0) {
-      return <Icon style={{ color: "green" }}>&#10003;</Icon>;
-    } else if (0 < data.gi && data.gi <= 55) {
-      return <Icon style={{ color: "green" }}>&#10003;</Icon>;
+    if (data.status === "Pro-inflammatory" || data.gi >= 70) {
+      return <Icon style={{ color: "red" }}>&#10007;</Icon>;
     } else if (55 < data.gi && data.gi <= 69) {
       return <Icon style={{ color: "orange" }}>&#9888;</Icon>;
-    } else if (data.gi >= 70) {
-      return <Icon style={{ color: "red" }}>&#9888;</Icon>;
+    } else if (0 <= data.gi && data.gi <= 55) {
+      return <Icon style={{ color: "green" }}>&#10003;</Icon>;
     }
   };
 
