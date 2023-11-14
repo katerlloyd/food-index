@@ -79,6 +79,7 @@ const Row = ({ data }) => {
       <TR color={getRowColor()}>
         <Heading>{data.name}</Heading>
         <Cell>{data.gi}</Cell>
+        <Cell>{data.gl}</Cell>
         <Cell>{data.status || "-"}</Cell>
         <Symbol>{getSymbol()}</Symbol>
         <Arrow onClick={() => setExpanded(!expanded)}>

@@ -70,6 +70,7 @@ const Section = ({ data, sortType }) => {
           <TitleRow color={data.color}>
             <Heading></Heading>
             <Heading>Glycemic Index</Heading>
+            <Heading>Glycemic Load</Heading>
             <Heading>Inflammatory Status</Heading>
             <Heading>&#10003;</Heading>
             <Heading></Heading>

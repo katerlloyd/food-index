@@ -2,7 +2,7 @@
   "data": [
     {
       "title": "Sweeteners",
-      "color": "171, 140, 0",
+      "color": "171, 34, 140",
       "items": [
         { "name": "Agave syrup", "gi": 15, "status": "", "notes": "" },
         { "name": "", "gi": 0, "status": "", "notes": "" },
@@ -208,7 +208,7 @@
         { "name": "Banana", "gi": 48, "status": "", "notes": "" },
         {
           "name": "Barbados cherry",
-          "gi": 0,
+          "gi": 20,
           "status": "",
           "notes": "Also called Acerola."
         },
@@ -217,8 +217,8 @@
         { "name": "Grapes, green", "gi": 45, "status": "", "notes": "" },
         { "name": "Grapes, red", "gi": 45, "status": "", "notes": "" },
         { "name": "Cherries", "gi": 25, "status": "", "notes": "" },
-        { "name": "Blueberry", "gi": 25, "status": "", "notes": "" },
-        { "name": "Pomegranate", "gi": 35, "status": "", "notes": "" },
+        { "name": "Blueberries", "gi": 25, "status": "", "notes": "" },
+        { "name": "Pomegranates", "gi": 35, "status": "", "notes": "" },
         { "name": "Grapefruit", "gi": 22, "status": "", "notes": "" },
         { "name": "Grapefruit (canned)", "gi": 47, "status": "", "notes": "" },
         { "name": "Pears", "gi": 30, "status": "", "notes": "" },

@@ -56,6 +56,20 @@ const Home = () => {
         </li>
       </ul>
       <p>
+        <strong>Glycemic Load:</strong> How likely a food is to raise serum blood glucose levels and insulin respnse per serving size.
+      </p>
+      <ul>
+        <li>
+          <strong>Low:</strong> 1-10
+        </li>
+        <li>
+          <strong>Medium:</strong> 11-19
+        </li>
+        <li>
+          <strong>High:</strong> 20+
+        </li>
+      </ul>
+      <p>
         <strong>Inflammation:</strong> An innate immune response, which in this
         particular case causes unwarranted damage to the body.
       </p>
