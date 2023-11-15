@@ -5,6 +5,7 @@ const Heading = styled.th`
   border-right: 1px solid lightgrey;
   border-collapse: collapse;
   padding: 0.25rem 1rem;
+  text-align: left;
 `;
 
 const TR = styled.tr`
@@ -46,11 +47,17 @@ const Row = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
 
   const getSymbol = () => {
-    if (data.status === "Pro-inflammatory" || data.gi >= 70) {
+    if (data.gi >= 70 || data.gl >= 20 || data.status === "Pro-inflammatory") {
       return <Icon style={{ color: "red" }}>&#10007;</Icon>;
-    } else if (55 < data.gi && data.gi <= 69) {
+    } else if (
+      (55 < data.gi && data.gi <= 69) ||
+      (10 < data.gl && data.gl <= 19)
+    ) {
       return <Icon style={{ color: "orange" }}>&#9888;</Icon>;
-    } else if (0 <= data.gi && data.gi <= 55) {
+    } else if (
+      (0 <= data.gi && data.gi <= 55) ||
+      (0 <= data.gl && data.gl <= 10)
+    ) {
       return <Icon style={{ color: "green" }}>&#10003;</Icon>;
     }
   };
