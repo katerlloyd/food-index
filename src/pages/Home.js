@@ -5,9 +5,13 @@ import Section from "../components/Section";
 const { data } = require("../catalog.json");
 
 const Width = styled.div`
-  margin: 0 20%;
+  margin: 0;
   padding: 1rem 2rem;
   background-color: white;
+
+  @media (min-width: 1200px) {
+    margin: 0 15%;
+  }
 `;
 
 const H1 = styled.h1`
@@ -56,7 +60,8 @@ const Home = () => {
         </li>
       </ul>
       <p>
-        <strong>Glycemic Load:</strong> How likely a food is to raise serum blood glucose levels and insulin response per serving size.
+        <strong>Glycemic Load:</strong> How likely a food is to raise serum
+        blood glucose levels and insulin response per serving size.
       </p>
       <ul>
         <li>
@@ -92,19 +97,19 @@ const Home = () => {
           onChange={(e) => setSortType(e.target.value)}
         >
           <option value="gi-ascending">Glycemic Index - Ascending</option>
-          <option value="gi-descending">Glycemic Index- Descending</option>
+          {/* <option value="gi-descending">Glycemic Index- Descending</option> */}
           {/* <option value="inflammatory-ascending">
             Inflammatory (Ascending)
-          </option>
-          <option value="inflammatory-descending">
+          </option> */}
+          {/* <option value="inflammatory-descending">
             Inflammatory (Descending)
-          </option>
-          <option value="alphabetically">Alphabetically</option> */}
+          </option> */}
+          {/* <option value="alphabetically">Alphabetically</option> */}
         </Select>
-        <div>
+        {/* <div>
           <input type="text" placeholder="Flour" name="search"></input>
           <button onClick={(e) => search(e.target.value)}>Search</button>
-        </div>
+        </div> */}
       </Box>
 
       {data?.map((section, index) => {
