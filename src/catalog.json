@@ -20,15 +20,36 @@
         {
           "name": "Brown rice",
           "gi": 50,
-          "gl": 0,
+          "gl": 36.5,
           "status": "Anti-inflammatory",
           "notes": ""
         },
         {
           "name": "White rice",
-          "gi": 72,
-          "gl": 0,
+          "gi": 70,
+          "gl": 56,
           "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Wild rice",
+          "gi": 45,
+          "gl": 33.8,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Basmati rice",
+          "gi": 50,
+          "gl": 37.5,
+          "status": "Non-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Black rice",
+          "gi": 35,
+          "gl": 7.3,
+          "status": "Anti-inflammatory",
           "notes": ""
         }
       ]
@@ -45,10 +66,79 @@
           "notes": "Also called Mutton."
         },
         {
-          "name": "Ham",
+          "name": "Beef",
           "gi": 0,
           "gl": 0,
           "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Pork",
+          "gi": 0,
+          "gl": 0,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Goose",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Turkey",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Chicken",
+          "gi": 0,
+          "gl": 0,
+          "status": "Non-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Rabbit",
+          "gi": 0,
+          "gl": 0,
+          "status": "Non-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Duck",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Venison",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Goat",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "title": "Seafood",
+      "color": "255, 102, 102",
+      "items": [
+        {
+          "name": "Salmon",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
           "notes": ""
         }
       ]
@@ -57,30 +147,60 @@
       "title": "Non-starchy Vegetables",
       "color": "90, 163, 0",
       "items": [
-        { "name": "Eggplant", "gi": 20, "gl": 1.7, "status": "", "notes": "" },
-        { "name": "Artichoke", "gi": 20, "gl": 1.2, "status": "", "notes": "" },
-        { "name": "Broccoli", "gi": 15, "gl": 0.5, "status": "", "notes": "" },
-        { "name": "Avocado", "gi": 10, "gl": 0.9, "status": "", "notes": "" },
+        {
+          "name": "Eggplant",
+          "gi": 20,
+          "gl": 1.7,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Artichoke",
+          "gi": 20,
+          "gl": 1.2,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Broccoli",
+          "gi": 15,
+          "gl": 0.5,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Avocado",
+          "gi": 10,
+          "gl": 0.9,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
         {
           "name": "Broccoli (cooked)",
           "gi": 45,
           "gl": 3.1,
-          "status": "",
+          "status": "Anti-inflammatory",
           "notes": ""
         },
         {
           "name": "Brussel sprouts",
           "gi": 15,
           "gl": 0.3,
-          "status": "",
+          "status": "Anti-inflammatory",
           "notes": ""
         },
-        { "name": "Mushrooms", "gi": 15, "gl": 0.8, "status": "", "notes": "" },
+        {
+          "name": "Mushrooms",
+          "gi": 15,
+          "gl": 0.8,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
         {
           "name": "Mushrooms (cooked)",
           "gi": 36,
           "gl": 1.9,
-          "status": "",
+          "status": "Anti-inflammatory",
           "notes": ""
         }
       ]
@@ -89,44 +209,79 @@
       "title": "Starchy Vegetables",
       "color": "222, 175, 0",
       "items": [
-        { "name": "White corn", "gi": 55, "gl": 0, "status": "", "notes": "" },
-        { "name": "Peas", "gi": 35, "gl": 0, "status": "", "notes": "" },
+        {
+          "name": "White corn",
+          "gi": 55,
+          "gl": 10.4,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Peas, green",
+          "gi": 35,
+          "gl": 4.5,
+          "status": "",
+          "notes": ""
+        },
         {
           "name": "Peas, frozen (boiled)",
           "gi": 51,
-          "gl": 0,
+          "gl": 4.6,
           "status": "",
           "notes": ""
         },
         {
-          "name": "Green peas (canned)",
+          "name": "Peas, green (canned)",
           "gi": 45,
-          "gl": 0,
+          "gl": 2.9,
           "status": "",
           "notes": ""
-        },
-        { "name": "Green peas", "gi": 15, "gl": 0, "status": "", "notes": "" }
+        }
       ]
     },
     {
       "title": "Herbs & Spices",
       "color": "90, 163, 0",
       "items": [
-        { "name": "Basil", "gi": 5, "gl": 0.1, "status": "", "notes": "" },
-        { "name": "Vanilla", "gi": 5, "gl": 3.3, "status": "", "notes": "" }
+        {
+          "name": "Basil",
+          "gi": 5,
+          "gl": 0.1,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Vanilla",
+          "gi": 5,
+          "gl": 3.3,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        }
       ]
     },
     {
       "title": "Beans & Legumes",
       "color": "140, 35, 0",
       "items": [
-        { "name": "Fava beans", "gi": 40, "gl": 0, "status": "", "notes": "" },
-        { "name": "Soybeans", "gi": 15, "gl": 0, "status": "", "notes": "" },
-        { "name": "White beans", "gi": 35, "gl": 0, "status": "", "notes": "" },
+        {
+          "name": "Fava beans",
+          "gi": 40,
+          "gl": 7.2,
+          "status": "",
+          "notes": ""
+        },
+        { "name": "Soybeans", "gi": 15, "gl": 4.5, "status": "", "notes": "" },
+        {
+          "name": "White beans",
+          "gi": 35,
+          "gl": 21.4,
+          "status": "",
+          "notes": ""
+        },
         {
           "name": "White beans (boiled)",
           "gi": 33,
-          "gl": 0,
+          "gl": 8.3,
           "status": "",
           "notes": ""
         }
@@ -136,69 +291,107 @@
       "title": "Fruits",
       "color": "215, 0, 0",
       "items": [
-        { "name": "Apricots", "gi": 34, "gl": 0, "status": "", "notes": "" },
-        { "name": "Quince", "gi": 35, "gl": 0, "status": "", "notes": "" },
+        { "name": "Apricots", "gi": 34, "gl": 3.8, "status": "", "notes": "" },
+        { "name": "Quince", "gi": 35, "gl": 3.4, "status": "", "notes": "" },
         {
-          "name": "Cherry plumb",
+          "name": "Cherry plums",
           "gi": 25,
           "gl": 0,
-          "status": "",
+          "status": "Anti-inflammatory",
           "notes": ""
         },
-        { "name": "Orange", "gi": 35, "gl": 0, "status": "", "notes": "" },
-        { "name": "Banana", "gi": 48, "gl": 0, "status": "", "notes": "" },
+        { "name": "Oranges", "gi": 35, "gl": 4.1, "status": "", "notes": "" },
+        { "name": "Bananas", "gi": 48, "gl": 10.1, "status": "", "notes": "" },
         {
           "name": "Barbados cherry",
           "gi": 20,
-          "gl": 0,
-          "status": "",
+          "gl": 0.1,
+          "status": "Anti-inflammatory",
           "notes": "Also called Acerola."
         },
-        { "name": "Platano", "gi": 45, "gl": 0, "status": "", "notes": "" },
+        { "name": "Platano", "gi": 45, "gl": 13.6, "status": "", "notes": "" },
         {
-          "name": "Dessert banana",
+          "name": "Dessert banana, green",
           "gi": 45,
-          "gl": 0,
+          "gl": 15.7,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Dessert banana, ripe",
+          "gi": 60,
+          "gl": 13.1,
           "status": "",
           "notes": ""
         },
         {
           "name": "Grapes, green",
           "gi": 45,
-          "gl": 0,
-          "status": "",
+          "gl": 5.4,
+          "status": "Anti-inflammatory",
           "notes": ""
         },
-        { "name": "Grapes, red", "gi": 45, "gl": 0, "status": "", "notes": "" },
-        { "name": "Cherries", "gi": 25, "gl": 0, "status": "", "notes": "" },
-        { "name": "Blueberries", "gi": 25, "gl": 0, "status": "", "notes": "" },
+        {
+          "name": "Grapes, red",
+          "gi": 45,
+          "gl": 8.1,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Grapes, black",
+          "gi": 59,
+          "gl": 11,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Cherries, sweet",
+          "gi": 25,
+          "gl": 4,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Blueberries",
+          "gi": 53,
+          "gl": 6.5,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
         {
           "name": "Pomegranates",
           "gi": 35,
-          "gl": 0,
+          "gl": 6.7,
           "status": "",
           "notes": ""
         },
-        { "name": "Grapefruit", "gi": 22, "gl": 0, "status": "", "notes": "" },
+        {
+          "name": "Grapefruit",
+          "gi": 22,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
         {
           "name": "Grapefruit (canned)",
           "gi": 47,
-          "gl": 0,
-          "status": "",
+          "gl": 4.3,
+          "status": "Anti-inflammatory",
           "notes": ""
         },
-        { "name": "Pears", "gi": 30, "gl": 0, "status": "", "notes": "" },
+        { "name": "Pears", "gi": 30, "gl": 4.7, "status": "", "notes": "" },
         {
           "name": "Pears (canned)",
           "gi": 55,
-          "gl": 0,
+          "gl": 8.6,
           "status": "",
           "notes": ""
         },
         {
           "name": "Melon pears",
           "gi": 40,
-          "gl": 0,
+          "gl": 8,
           "status": "",
           "notes": "Also called Pepino."
         }
@@ -208,34 +401,81 @@
       "title": "Nuts & Seeds",
       "color": "122, 0, 122",
       "items": [
-        { "name": "Peanuts", "gi": 15, "gl": 0, "status": "", "notes": "" },
+        {
+          "name": "Peanuts",
+          "gi": 15,
+          "gl": 2.4,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
         {
           "name": "Peanut butter",
           "gi": 25,
-          "gl": 0,
-          "status": "",
+          "gl": 7,
+          "status": "Anti-inflammatory",
           "notes": ""
         },
-        { "name": "Walnuts", "gi": 15, "gl": 0, "status": "", "notes": "" },
-        { "name": "Buckwheat", "gi": 50, "gl": 0, "status": "", "notes": "" }
+        {
+          "name": "Walnuts",
+          "gi": 15,
+          "gl": 2.1,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Buckwheat",
+          "gi": 50,
+          "gl": 22,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Flaxseed",
+          "gi": 35,
+          "gl": 0.6,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        }
       ]
     },
     {
       "title": "Oils & Fats",
       "color": "171, 140, 0",
       "items": [
-        { "name": "Peanut oil", "gi": 40, "gl": 8.6, "status": "", "notes": "" }
+        {
+          "name": "Peanut oil",
+          "gi": 40,
+          "gl": 8.6,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        }
       ]
     },
     {
       "title": "Grains (non-rice)",
       "color": "150, 91, 63",
-      "items": [{ "name": "", "gi": 0, "gl": 0, "status": "", "notes": "" }]
+      "items": [
+        {
+          "name": "Wheat",
+          "gi": 45,
+          "gl": 26.8,
+          "status": "Non-inflammatory",
+          "notes": ""
+        }
+      ]
     },
     {
       "title": "Dairy & Eggs",
       "color": "0, 150, 150",
-      "items": [{ "name": "", "gi": 0, "gl": 0, "status": "", "notes": "" }]
+      "items": [
+        {
+          "name": "Eggs",
+          "gi": 0,
+          "gl": 0,
+          "status": "Non-inflammatory",
+          "notes": ""
+        }
+      ]
     }
   ]
 }

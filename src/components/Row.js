@@ -47,7 +47,7 @@ const Row = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
 
   const getSymbol = () => {
-    if (data.gi >= 70 || data.gl >= 20 || data.status === "Pro-inflammatory") {
+    if (data.gi >= 70 || data.gl >= 20) {
       return <Icon style={{ color: "red" }}>&#10007;</Icon>;
     } else if (
       (55 < data.gi && data.gi <= 69) ||
