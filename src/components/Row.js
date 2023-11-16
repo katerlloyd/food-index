@@ -81,8 +81,8 @@ const Row = ({ data }) => {
     <>
       <TR color={getRowColor()}>
         <Heading>{data.name}</Heading>
-        <Cell>{data.gi}</Cell>
-        <Cell>{data.gl}</Cell>
+        <Cell>{data.gi === -1 ? "-" : data.gi}</Cell>
+        <Cell>{data.gl === -1 ? "-" : data.gl}</Cell>
         <Cell>{data.status || "-"}</Cell>
         <Symbol>{getSymbol()}</Symbol>
         <Arrow onClick={() => setExpanded(!expanded)}>

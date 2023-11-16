@@ -250,6 +250,97 @@
           "gl": 2.9,
           "status": "",
           "notes": ""
+        },
+        {
+          "name": "Sweet potatoes, purple",
+          "gi": 77,
+          "gl": -1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Sweet potatoes (baked)",
+          "gi": 94,
+          "gl": -1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Sweet potatoes (boiled)",
+          "gi": 46,
+          "gl": -1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Sweet potatoes (roasted)",
+          "gi": 82,
+          "gl": -1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Sweet potatoes",
+          "gi": 54,
+          "gl": 11.3,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Russet potatoes (baked)",
+          "gi": 111,
+          "gl": -1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "White potatoes (boiled)",
+          "gi": 82,
+          "gl": -1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Potatoes (boiled)",
+          "gi": 70,
+          "gl": 12.3,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Potatoes (baked)",
+          "gi": 95,
+          "gl": 20,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Turnips",
+          "gi": 30,
+          "gl": 1.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Turnips (boiled, cooked)",
+          "gi": 85,
+          "gl": 3.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Pumpkin",
+          "gi": 65,
+          "gl": 4.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Pumpkin (boiled)",
+          "gi": 75,
+          "gl": 5.3,
+          "status": "",
+          "notes": ""
         }
       ]
     },
@@ -284,7 +375,13 @@
           "status": "",
           "notes": ""
         },
-        { "name": "Soybeans", "gi": 15, "gl": 4.5, "status": "", "notes": "" },
+        {
+          "name": "Soybeans",
+          "gi": 15,
+          "gl": 4.5,
+          "status": "",
+          "notes": ""
+        },
         {
           "name": "White beans",
           "gi": 35,
@@ -305,8 +402,20 @@
       "title": "Fruits",
       "color": "215, 0, 0",
       "items": [
-        { "name": "Apricots", "gi": 34, "gl": 3.8, "status": "", "notes": "" },
-        { "name": "Quince", "gi": 35, "gl": 3.4, "status": "", "notes": "" },
+        {
+          "name": "Apricots",
+          "gi": 34,
+          "gl": 3.8,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Quince",
+          "gi": 35,
+          "gl": 3.4,
+          "status": "",
+          "notes": ""
+        },
         {
           "name": "Cherry plums",
           "gi": 25,
@@ -314,8 +423,20 @@
           "status": "Anti-inflammatory",
           "notes": ""
         },
-        { "name": "Oranges", "gi": 35, "gl": 4.1, "status": "", "notes": "" },
-        { "name": "Bananas", "gi": 48, "gl": 10.1, "status": "", "notes": "" },
+        {
+          "name": "Oranges",
+          "gi": 35,
+          "gl": 4.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Bananas",
+          "gi": 48,
+          "gl": 10.1,
+          "status": "",
+          "notes": ""
+        },
         {
           "name": "Barbados cherry",
           "gi": 20,
@@ -323,7 +444,13 @@
           "status": "Anti-inflammatory",
           "notes": "Also called Acerola."
         },
-        { "name": "Platano", "gi": 45, "gl": 13.6, "status": "", "notes": "" },
+        {
+          "name": "Platano",
+          "gi": 45,
+          "gl": 13.6,
+          "status": "",
+          "notes": ""
+        },
         {
           "name": "Dessert banana, green",
           "gi": 45,
@@ -394,7 +521,13 @@
           "status": "Anti-inflammatory",
           "notes": ""
         },
-        { "name": "Pears", "gi": 30, "gl": 4.7, "status": "", "notes": "" },
+        {
+          "name": "Pears",
+          "gi": 30,
+          "gl": 4.7,
+          "status": "",
+          "notes": ""
+        },
         {
           "name": "Pears (canned)",
           "gi": 55,
@@ -449,6 +582,27 @@
           "gl": 0.6,
           "status": "Anti-inflammatory",
           "notes": ""
+        },
+        {
+          "name": "Pumpkin seeds",
+          "gi": 25,
+          "gl": 13.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Sunflower seeds",
+          "gi": 35,
+          "gl": 7,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Chia seeds",
+          "gi": 30,
+          "gl": 12.6,
+          "status": "",
+          "notes": ""
         }
       ]
     },
@@ -481,6 +635,20 @@
           "gi": 45,
           "gl": 26.8,
           "status": "Non-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "gi": 35,
+          "gl": 7.3,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Quinoa",
+          "gi": 40,
+          "gl": 22.8,
+          "status": "",
           "notes": ""
         }
       ]
@@ -602,7 +770,7 @@
           "notes": ""
         },
         {
-          "name": "Soya flour",
+          "name": "Soy flour",
           "gi": 25,
           "gl": 4.5,
           "status": "",
@@ -692,7 +860,7 @@
           "notes": ""
         },
         {
-          "name": "Soya milk",
+          "name": "Soy milk",
           "gi": 30,
           "gl": 1.8,
           "status": "",
@@ -716,6 +884,13 @@
           "name": "Cheddar cheese",
           "gi": 0,
           "gl": 0,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Feta cheese",
+          "gi": 30,
+          "gl": 1.2,
           "status": "",
           "notes": ""
         },
