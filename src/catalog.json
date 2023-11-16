@@ -132,7 +132,7 @@
     },
     {
       "title": "Seafood",
-      "color": "255, 102, 102",
+      "color": "232, 95, 79",
       "items": [
         {
           "name": "Salmon",
@@ -213,7 +213,21 @@
           "name": "White corn",
           "gi": 55,
           "gl": 10.4,
-          "status": "",
+          "status": "Non-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Yellow corn",
+          "gi": 65,
+          "gl": 10.1,
+          "status": "Non-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Sweet corn",
+          "gi": 48,
+          "gl": 8.9,
+          "status": "Non-inflammatory",
           "notes": ""
         },
         {
@@ -448,6 +462,13 @@
           "gl": 8.6,
           "status": "Pro-inflammatory",
           "notes": ""
+        },
+        {
+          "name": "Olive oil",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
         }
       ]
     },
@@ -465,11 +486,241 @@
       ]
     },
     {
+      "title": "Flours & Starches",
+      "color": "90, 96, 99",
+      "items": [
+        {
+          "name": "Wheat flour, white",
+          "gi": 85,
+          "gl": 62.6,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Wheat flour, whole",
+          "gi": 45,
+          "gl": 26.8,
+          "status": "Non-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Corn starch",
+          "gi": 85,
+          "gl": 72.3,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Corn flour",
+          "gi": 70,
+          "gl": 53.8,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Potato starch, flour",
+          "gi": 95,
+          "gl": 78.9,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Chickpea flour",
+          "gi": 35,
+          "gl": 23.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Quinoa flour",
+          "gi": 40,
+          "gl": 22.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Spelt flour",
+          "gi": 45,
+          "gl": 30.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Buckwheat flour",
+          "gi": 40,
+          "gl": 22.8,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Rye flour, whole",
+          "gi": 45,
+          "gl": 28.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Chestnut flour",
+          "gi": 65,
+          "gl": 46.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Rice flour",
+          "gi": 95,
+          "gl": 76.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Wholemeal flour",
+          "gi": 60,
+          "gl": 33.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Barley flour",
+          "gi": 30,
+          "gl": 16.8,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Kamut flour",
+          "gi": 45,
+          "gl": 32.4,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Arrowroot flour",
+          "gi": 85,
+          "gl": 72,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Soya flour",
+          "gi": 25,
+          "gl": 4.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Oat flour",
+          "gi": 25,
+          "gl": 3,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Coconut flour",
+          "gi": 51,
+          "gl": 3,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Flaxseed flour",
+          "gi": 1,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Almond flour",
+          "gi": 1,
+          "gl": 0,
+          "status": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
       "title": "Dairy & Eggs",
       "color": "0, 150, 150",
       "items": [
         {
           "name": "Eggs",
+          "gi": 0,
+          "gl": 0,
+          "status": "Non-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Goat milk",
+          "gi": 24,
+          "gl": 4.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Almond milk",
+          "gi": 30,
+          "gl": 3.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Coconut milk",
+          "gi": 40,
+          "gl": 1.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Skim milk",
+          "gi": 31,
+          "gl": 1.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Oat milk",
+          "gi": 69,
+          "gl": 3.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Rice milk",
+          "gi": 85,
+          "gl": 5.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Soya milk",
+          "gi": 30,
+          "gl": 1.8,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Whole milk",
+          "gi": 34,
+          "gl": 1.6,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Cottage cheese",
+          "gi": 30,
+          "gl": 0.8,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Cheddar cheese",
+          "gi": 0,
+          "gl": 0,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Butter",
           "gi": 0,
           "gl": 0,
           "status": "Non-inflammatory",

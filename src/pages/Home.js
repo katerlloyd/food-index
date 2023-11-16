@@ -56,7 +56,7 @@ const Home = () => {
         </li>
       </ul>
       <p>
-        <strong>Glycemic Load:</strong> How likely a food is to raise serum blood glucose levels and insulin respnse per serving size.
+        <strong>Glycemic Load:</strong> How likely a food is to raise serum blood glucose levels and insulin response per serving size.
       </p>
       <ul>
         <li>
