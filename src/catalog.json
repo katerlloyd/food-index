@@ -6,8 +6,78 @@
       "items": [
         {
           "name": "Agave syrup",
-          "gi": 15,
+          "gi": 27,
           "gl": 11.4,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Sucrose",
+          "gi": 65,
+          "gl": 6,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Fructose",
+          "gi": 25,
+          "gl": -1,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Glucose",
+          "gi": 100,
+          "gl": -1,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Honey",
+          "gi": 58,
+          "gl": 10,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Coconut sugar",
+          "gi": 35,
+          "gl": 1.8,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Maple syrup, pure",
+          "gi": 55,
+          "gl": 36.9,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Molasses",
+          "gi": 55,
+          "gl": -1,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Corn syrup",
+          "gi": 15,
+          "gl": 11.7,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Corn syrup, dark",
+          "gi": 96,
+          "gl": 5,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "High fructose corn syrup",
+          "gi": 56,
+          "gl": 3,
           "status": "Pro-inflammatory",
           "notes": ""
         }
@@ -303,7 +373,7 @@
         {
           "name": "Russet potatoes (baked)",
           "gi": 111,
-          "gl": -1,
+          "gl": 33,
           "status": "",
           "notes": ""
         },
@@ -805,7 +875,7 @@
           "notes": ""
         },
         {
-          "name": "Flaxseed flour",
+          "name": "Flaxseed flour, meal",
           "gi": 1,
           "gl": 0,
           "status": "Anti-inflammatory",

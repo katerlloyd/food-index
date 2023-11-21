@@ -37,7 +37,7 @@ const Select = styled.select`
 const Home = () => {
   const [sortType, setSortType] = useState("gi-ascending");
 
-  const search = (word) => {};
+  // const search = (word) => {};
 
   return (
     <Width>
@@ -83,7 +83,7 @@ const Home = () => {
           <strong>Anti-inflammatory:</strong> Reduces inflammation
         </li>
         <li>
-          <strong>Non-inflammatory:</strong> Has no effect on inflammation
+          <strong>Non-inflammatory:</strong> Has no effect on inflammation (or is in dispute)
         </li>
         <li>
           <strong>Pro-inflammatory:</strong> Causes inflammation
