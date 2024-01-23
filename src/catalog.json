@@ -28,7 +28,7 @@
         {
           "name": "Glucose",
           "gi": 100,
-          "gl": -1,
+          "gl": 95,
           "status": "Pro-inflammatory",
           "notes": ""
         },
@@ -78,6 +78,34 @@
           "name": "High fructose corn syrup",
           "gi": 56,
           "gl": 3,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Monk fruit",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Stevia",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Sucralose",
+          "gi": 0,
+          "gl": 0,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Dextrose",
+          "gi": 100,
+          "gl": 95,
           "status": "Pro-inflammatory",
           "notes": ""
         }
@@ -210,6 +238,27 @@
           "gl": 0,
           "status": "Anti-inflammatory",
           "notes": ""
+        },
+        {
+          "name": "Tilapia",
+          "gi": 0,
+          "gl": 0,
+          "status": "Pro-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Tuna",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Sardines",
+          "gi": 0,
+          "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
         }
       ]
     },
@@ -284,6 +333,55 @@
           "name": "Onions",
           "gi": 15,
           "gl": 1.6,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Garlic",
+          "gi": 30,
+          "gl": 9.0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Cauliflower",
+          "gi": 15,
+          "gl": 0.8,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Cucumber",
+          "gi": 15,
+          "gl": 0.4,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Zucchini",
+          "gi": 15,
+          "gl": 0.5,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Rhubarb",
+          "gi": 15,
+          "gl": 0.4,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Olives, black",
+          "gi": 15,
+          "gl": 4.8,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Olives",
+          "gi": 15,
+          "gl": 0.9,
           "status": "Anti-inflammatory",
           "notes": ""
         }
@@ -425,6 +523,20 @@
           "gl": 5.3,
           "status": "",
           "notes": ""
+        },
+        {
+          "name": "Carrots (cooked)",
+          "gi": 85,
+          "gl": 4.25,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Carrots, fresh",
+          "gi": 30,
+          "gl": 2.0,
+          "status": "",
+          "notes": ""
         }
       ]
     },
@@ -479,6 +591,48 @@
           "gl": 8.3,
           "status": "",
           "notes": ""
+        },
+        {
+          "name": "Chickpeas",
+          "gi": 10,
+          "gl": 6.1,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Chickpeas (canned)",
+          "gi": 35,
+          "gl": 6.8,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Green beans",
+          "gi": 30,
+          "gl": 2.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Red beans",
+          "gi": 35,
+          "gl": 18.4,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "String beans, fresh",
+          "gi": 30,
+          "gl": 1.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Azuki beans",
+          "gi": 35,
+          "gl": 22.0,
+          "status": "",
+          "notes": ""
         }
       ]
     },
@@ -509,15 +663,22 @@
         },
         {
           "name": "Oranges",
-          "gi": 35,
+          "gi": 44,
           "gl": 4.1,
           "status": "",
           "notes": ""
         },
         {
-          "name": "Bananas",
-          "gi": 48,
-          "gl": 10.1,
+          "name": "Bananas, unripe",
+          "gi": 42,
+          "gl": 11,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Bananas, ripe",
+          "gi": 51,
+          "gl": 13,
           "status": "",
           "notes": ""
         },
@@ -625,6 +786,293 @@
           "gl": 8,
           "status": "",
           "notes": "Also called Pepino."
+        },
+        {
+          "name": "Dates, dried",
+          "gi": 40,
+          "gl": 27.7,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Clementines",
+          "gi": 70,
+          "gl": 1.3,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Coconut",
+          "gi": 51,
+          "gl": 0.8,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Pineapple",
+          "gi": 66,
+          "gl": 8.6,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Watermelon",
+          "gi": 75,
+          "gl": 5.6,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Pomelo",
+          "gi": 25,
+          "gl": 2.0,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Blackberries",
+          "gi": 25,
+          "gl": 2.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Gooseberries, yellow",
+          "gi": 15,
+          "gl": 1.8,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Raisins",
+          "gi": 65,
+          "gl": 51.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Raisins, gold, red",
+          "gi": 65,
+          "gl": 46.8,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Figs, fresh",
+          "gi": 35,
+          "gl": 6.7,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Figs, dried",
+          "gi": 50,
+          "gl": 28.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Kiwis",
+          "gi": 50,
+          "gl": 7.3,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Strawberries",
+          "gi": 25,
+          "gl": 1.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Cranberries",
+          "gi": 45,
+          "gl": 5.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Apricots, dried",
+          "gi": 35,
+          "gl": 21.2,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Lemons",
+          "gi": 20,
+          "gl": 0.6,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Lychees",
+          "gi": 50,
+          "gl": 7.6,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Raspberries",
+          "gi": 25,
+          "gl": 3.0,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Mangoes",
+          "gi": 56,
+          "gl": 8.4,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Mandarin oranges",
+          "gi": 30,
+          "gl": 3.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Tangerines (canned)",
+          "gi": 47,
+          "gl": 4.2,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Passion fruit",
+          "gi": 30,
+          "gl": 6.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Nectarines",
+          "gi": 35,
+          "gl": 4.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Prickly pears",
+          "gi": 35,
+          "gl": 3.4,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Papayas",
+          "gi": 60,
+          "gl": 5.5,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Peaches (canned)",
+          "gi": 55,
+          "gl": 8.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Peaches",
+          "gi": 35,
+          "gl": 4.0,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Peaches, dried",
+          "gi": 35,
+          "gl": 20.2,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Platano (cooked)",
+          "gi": 70,
+          "gl": 27.4,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Plums",
+          "gi": 35,
+          "gl": 3.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Currants, red",
+          "gi": 25,
+          "gl": 1.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Currants, black",
+          "gi": 15,
+          "gl": 1.1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Tangerines",
+          "gi": 30,
+          "gl": 3.9,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Dates",
+          "gi": 70,
+          "gl": 48.4,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Persimmons",
+          "gi": 50,
+          "gl": 7.7,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Prunes",
+          "gi": 40,
+          "gl": 25.6,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Apples, dried",
+          "gi": 35,
+          "gl": 20.6,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Applesauce",
+          "gi": 35,
+          "gl": 4.0,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Goji berries",
+          "gi": 25,
+          "gl": 13.3,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Apples",
+          "gi": 44,
+          "gl": 5.0,
+          "status": "",
+          "notes": ""
         }
       ]
     },
@@ -687,6 +1135,13 @@
           "gl": 12.6,
           "status": "",
           "notes": ""
+        },
+        {
+          "name": "Pistachios",
+          "gi": 15,
+          "gl": 4.2,
+          "status": "",
+          "notes": ""
         }
       ]
     },
@@ -705,6 +1160,13 @@
           "name": "Olive oil",
           "gi": 0,
           "gl": 0,
+          "status": "Anti-inflammatory",
+          "notes": ""
+        },
+        {
+          "name": "Coconut oil",
+          "gi": 2,
+          "gl": -1,
           "status": "Anti-inflammatory",
           "notes": ""
         }
@@ -732,6 +1194,41 @@
           "name": "Quinoa",
           "gi": 40,
           "gl": 22.8,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Oats, instant",
+          "gi": 83,
+          "gl": 41.4,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Oats, hercules",
+          "gi": 59,
+          "gl": 36,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Oatmeal (cooked)",
+          "gi": 60,
+          "gl": 9.0,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Oats, rolled",
+          "gi": 57,
+          "gl": -1,
+          "status": "",
+          "notes": ""
+        },
+        {
+          "name": "Oats, steel cut",
+          "gi": 53,
+          "gl": -1,
           "status": "",
           "notes": ""
         }

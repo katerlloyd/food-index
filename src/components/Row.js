@@ -61,17 +61,15 @@ const Row = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
 
   const getSymbol = () => {
-    if (data.gi >= 70 || data.gl >= 20) {
+    if (data.gi >= 70) {
       return <Icon style={{ color: "red" }}>&#10007;</Icon>;
     } else if (
       (55 < data.gi && data.gi <= 69) ||
-      (10 < data.gl && data.gl <= 19)
+      (10 < data.gl && data.gl <= 19) ||
+      data.gl >= 20
     ) {
       return <Icon style={{ color: "orange" }}>&#10003;</Icon>;
-    } else if (
-      (0 <= data.gi && data.gi <= 55) ||
-      (0 <= data.gl && data.gl <= 10)
-    ) {
+    } else if (0 <= data.gi && data.gi <= 55) {
       return <Icon style={{ color: "green" }}>&#10003;</Icon>;
     }
   };

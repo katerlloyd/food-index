@@ -52,13 +52,61 @@ const Section = ({ data, sortType }) => {
 
   const sortByGIAscending = (items) => {
     return items.sort((a, b) => {
-      return a.gi - b.gi;
+      if (a.gi > b.gi) return 1;
+      if (a.gi < b.gi) return -1;
+
+      if (a.gl > b.gl) return 1;
+      if (a.gl < b.gl) return -1;
+
+      if (a.name > b.name) return 1;
+      if (a.name < b.name) return -1;
+
+      return 0;
     });
   };
 
   const sortByGIDescending = (items) => {
     return items.sort((a, b) => {
-      return b.gi - a.gi;
+      if (a.gi < b.gi) return 1;
+      if (a.gi > b.gi) return -1;
+
+      if (a.gl < b.gl) return 1;
+      if (a.gl > b.gl) return -1;
+
+      if (a.name > b.name) return 1;
+      if (a.name < b.name) return -1;
+
+      return 0;
+    });
+  };
+
+  const sortByGLAscending = (items) => {
+    return items.sort((a, b) => {
+      if (a.gl > b.gl) return 1;
+      if (a.gl < b.gl) return -1;
+
+      if (a.gi > b.gi) return 1;
+      if (a.gi < b.gi) return -1;
+
+      if (a.name > b.name) return 1;
+      if (a.name < b.name) return -1;
+
+      return 0;
+    });
+  };
+
+  const sortByGLDescending = (items) => {
+    return items.sort((a, b) => {
+      if (a.gl < b.gl) return 1;
+      if (a.gl > b.gl) return -1;
+
+      if (a.gi < b.gi) return 1;
+      if (a.gi > b.gi) return -1;
+
+      if (a.name > b.name) return 1;
+      if (a.name < b.name) return -1;
+
+      return 0;
     });
   };
 
