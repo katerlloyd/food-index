@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Glycemic Index Food Catalog
+Here is the [link](https://katerlloyd.github.io/food-index/) to the site.
 
 ## Available Scripts
 
